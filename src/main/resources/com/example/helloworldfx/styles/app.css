@@ -1,0 +1,171 @@
+#mainPanel{
+    -fx-background-color: #3E4756;
+    -fx-spacing: 0px;
+    }
+#header{
+    -fx-pref-width: 400;
+    -fx-pref-height: 100;
+    -fx-background-color: #3e4756;
+    -fx-border-width: 0px;
+}
+#divider {
+    -fx-pref-width: 400;
+    -fx-pref-height: 20;
+    -fx-background-color: DEDEDE;
+    -fx-border-width: 0px;
+}
+#main{
+    -fx-pref-width: 400;
+    -fx-pref-height: 480;
+    -fx-background-color: #3E4756;
+    -fx-border-width: 0px;
+}
+.headerButton {
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-background-color: #3E4756;
+    -fx-border-width: 0px;
+}
+#btnSettings{
+    -fx-background-image: url(../images/gear-50.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#btnUser{
+    -fx-background-image: url(../images/user-50.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#btnTrophy{
+    -fx-background-image: url(../images/trophy-50.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#btnPower{
+    -fx-background-image: url(../images/shutdown-50.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#touchPanel{
+    -fx-pref-width: 400;
+    -fx-pref-height: 120;
+    -fx-background-color: #3E4756;
+}
+#leftTouchPanel{
+    -fx-pref-width: 200;
+    -fx-padding: 10;
+    -fx-alignment: center-left;
+}
+#rightTouchPanel{
+    -fx-pref-width: 200;
+    -fx-padding: 10;
+    -fx-alignment: center-left;
+}
+#lblTouchTittle{
+    -fx-font-family: Arial;
+    -fx-font-weight: bold;
+    -fx-text-fill: #DEDEDE;
+    -fx-fontsize:16px;
+}#txtTouchText{
+    -fx-font-family: Arial;
+    -fx-font-weight: 600;
+    -fx-fill: #DEDEDE;
+    -fx-font-size: 12px;
+ }
+ #btnToggle{
+     -fx-background-image: url(../images/toggle-50.png);
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+     -fx-pref-width: 70;
+     -fx-pref-height: 30;
+     -fx-background-color: #3E4756;
+ }
+ #lblToggle{
+     -fx-font-family: Arial;
+     -fx-font-weight: bold;
+     -fx-text-fill: #DEDEDE;
+     -fx-font-size: 16px;
+ }
+#suscribePanel{
+    -fx-pref-width: 400;
+    -fx-pref-height: 120;
+    -fx-background-color: #3E4756;
+}
+#leftSuscribePanel{
+    -fx-pref-width: 200;
+    -fx-padding: 10;
+    -fx-alignment: center-left;
+}
+#rightSuscribePanel{
+    -fx-pref-width: 200;
+    -fx-padding: 10;
+    -fx-alignment: center-left;
+}
+#lblSuscribeTittle{
+    -fx-font-family: Arial;
+    -fx-font-weight: bold;
+    -fx-text-fill: #DEDEDE;
+    -fx-fontsize:16px;
+}#txtSuscribeText{
+     -fx-font-family: Arial;
+     -fx-font-weight: 600;
+     -fx-fill: #DEDEDE;
+     -fx-font-size: 12px;
+ }
+#btnToggleSuscribe{
+    -fx-background-image: url(../images/toggle-50.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 70;
+    -fx-pref-height: 30;
+    -fx-background-color: #3E4756;
+}
+#lblToggleSuscribe{
+    -fx-font-family: Arial;
+    -fx-font-weight: bold;
+    -fx-text-fill: #DEDEDE;
+    -fx-font-size: 16px;
+}
+
+#Line, #Line2 {
+    -fx-stroke: rgb(222, 222, 222);
+    -fx-width: 10px;
+}
+#brightnessText{
+    -fx-font-family: Arial;
+    -fx-font-weight: bold;
+    -fx-text-fill: #DEDEDE;
+    -fx-font-size: 16px;
+}
+#gauge{
+    -fx-background-image: url(../images/bar-50.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-max-width: 400;
+    -fx-min-height: 100;
+}
+#btnSave{
+    -fx-alignment: center-left;
+    -fx-pref-width: 100;
+    -fx-pref-height: 40;
+    -fx-text-fill: black;
+    -fx-font-size: 16px;
+    -fx-font-family: arial;
+}
+#btnCancel{
+    -fx-alignment: center-left;
+    -fx-pref-width: 100;
+    -fx-pref-height: 40;
+    -fx-text-fill: black;
+    -fx-font-size: 16px;
+    -fx-font-family: arial;
+}
+#bottom{
+    -fx-alignment: center;
+    -fx-spacing: 50;
+}
+#divider2 {
+    -fx-pref-width: 400;
+    -fx-pref-height: 30;
+    -fx-border-width: 0px;
+}
